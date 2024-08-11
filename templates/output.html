@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Prediction</title>
+    <!--  Bootstrap  CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+    crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url('static/img/z13.jpg');
+        }
+    </style>
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-5">
+            <img src="static/img/2.png" alt="" height="600px"  style="margin-top: 5px;" class="w-100">
+        </div>
+        
+        <div class="col-sm-6">
+             <h1 class="text-center mt-5 text-light">Student Performance Prediction</h1>
+            <h1 class="text-danger mt-5 mb-3">Result</h1>
+            <h5 class="text-light mt-3">The performance index of given student is :- <span class="text-success">{{result}}</span></h5>
+            
+                
+            <div class="row mt-5">
+                <div class="col-sm-4"> </div>
+                <div class="col-sm-6">
+                    <a href="" >
+                        <button href="" type="submit" class="btn btn-primary w-50">Predict Another</button>
+                     </a>
+                </div>
+                <div class="col-sm-2"></div>
+                
+             </div>     
+        </div>
+    </div>
+</body>
+</html>
